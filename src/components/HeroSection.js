@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <img src='/images/fingerprint.jpg' />
+      {/* <img src='/images/fingerprint.jpg' /> */}
       <h1>Want To Get FingerPrinted?</h1>
       <p>We are an officially certified fingerprinting service provider agency 
         authorized by the Department of Justice and FBI.</p>
