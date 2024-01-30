@@ -1,50 +1,123 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import DocumentScannerIcon from '@mui/icons-material/DocumentScanner';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+// import Box from '@mui/system/Box';
+import { Box, Button } from '@mui/material';
 
 function Cards() {
+  const handleClick = () => {
+    // Redirect to another page
+    // history.push('/about-us');
+  };
   return (
-    <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/about-us'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/contact-us'
-            />
-          </ul>
+    <>
+      <div className='cards'>
+        <h1>We Accept</h1>
+        <div className='cards__container'>
+          <div className='cards__wrapper'>
+            <ul className='cards__items'>
+              <CardItem
+                src='images/Walkin.jpg'
+                title='Walk In'
+                text='We provide the convenience of a walk-in facility, 
+                allowing you to visit us during office hours without the need for a prior appointment.'
+              />
+              <CardItem
+                src='images/Appointment.jpg'
+                title='Appointments'
+                text='For privacy, appointments are offered upon request and 
+                are also available outside of regular office hours.'
+                path='/contact-us'
+              />
+              <CardItem
+                src='images/Payment.jpg'
+                title='Payments'
+                text='We welcome both cash and credit payments, providing flexibility 
+                with multiple payment options for your convenience.'
+              />
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+      <div className='documents'>
+        < h1>Documents Required</h1>
+        <List
+          sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
+          aria-label="docs"
+        >
+          <ListItem >
+            <ListItemButton>
+              <ListItemIcon>
+                <DocumentScannerIcon />
+              </ListItemIcon>
+              <ListItemText primary="Live Scan Fingerprint request form" />
+            </ListItemButton>
+          </ListItem>
+          <ListItem >
+            <ListItemButton>
+            <ListItemIcon>
+                <DocumentScannerIcon />
+              </ListItemIcon>
+              <ListItemText primary="Valid ID" />
+            </ListItemButton>
+          </ListItem>
+          <ListItem >
+            <ListItemButton>
+            <ListItemIcon>
+                <DocumentScannerIcon />
+              </ListItemIcon>
+              <ListItemText primary="Photo" />
+            </ListItemButton>
+          </ListItem>
+          <ListItem >
+            <ListItemButton>
+            <ListItemIcon>
+                <DocumentScannerIcon />
+              </ListItemIcon>
+              <ListItemText primary="Signature" />
+            </ListItemButton>
+          </ListItem>
+          <ListItem >
+            <ListItemButton>
+            <ListItemIcon>
+                <DocumentScannerIcon />
+              </ListItemIcon>
+              <ListItemText primary="Date of Birth" />
+            </ListItemButton>
+          </ListItem>
+        </List>
+      </div>
+      <div className='about'>
+        <h1>Live Scan</h1>
+        <Box component="section" sx={{
+          width: '50%',
+          borderRadius: 1,
+          bgcolor: 'white',
+          '&:hover': {
+            bgcolor: '#ede4e4',
+          },
+          padding: '1rem',
+          marginTop: '30px'
+        }}>
+        Our organization holds official authorization from the Department of Justice 
+        and is certified by the FBI as a fingerprinting service provider. We specialize 
+        in capturing and submitting fingerprints electronically or via ink. Our services 
+        cater to various needs, including licensure, certification, volunteering, employment, 
+        business permits, record reviews, immigration clearances, and other licensing or 
+        employment purposes.
+        <br/>
+        <Button variant="contained" color="primary" onClick={handleClick} sx={{marginTop:'20px'}}>
+          About Us
+        </Button>
+        </Box>
+      </div>
+    </>
   );
 }
 
