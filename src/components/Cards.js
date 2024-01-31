@@ -7,8 +7,15 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+// import GoogleMapReact from 'google-map-react';
 // import Box from '@mui/system/Box';
 import { Box, Button } from '@mui/material';
+import GoogleMapComponent from './GoogleMapComponent';
 
 function Cards() {
   const handleClick = () => {
@@ -44,6 +51,53 @@ function Cards() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className='accordion'>
+      <Accordion className='accordion_item'>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+        >
+          <Typography>Header</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion className='accordion_item'>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+        >
+          <Typography>Header</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion className='accordion_item'>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+        >
+          <Typography>Header</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
       </div>
       <div className='documents'>
         < h1>Documents Required</h1>
@@ -93,6 +147,12 @@ function Cards() {
           </ListItem>
         </List>
       </div>
+      <div>
+        <div style={{ height: '400px', width: '100%' }}>
+          <GoogleMapComponent />
+        </div>
+      </div>
+      
       <div className='about'>
         <h1>Live Scan</h1>
         <Box component="section" sx={{
