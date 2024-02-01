@@ -14,9 +14,9 @@ function Footer() {
             <Link to='/'>FAQ</Link>
           </div>
           <div className='footer-link-items'>
-            <Link to='/'>Info1</Link>
-            <Link to='/'>Info2</Link>
-            <Link to='/'>Info3</Link>
+            <Link to='/services'>Services</Link>
+            <Link to='/services'>Fingerprint</Link>
+            <Link to='/contact-us'>Appointments</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
