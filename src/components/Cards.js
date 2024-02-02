@@ -27,7 +27,7 @@ function Cards() {
   return (
     <>
       <div className='cards'>
-        <h1>We Accept</h1>
+        <h1>We Offer</h1>
         <div className='cards__container'>
           <div className='cards__wrapper'>
             <ul className='cards__items'>
@@ -46,9 +46,32 @@ function Cards() {
               />
               <CardItem
                 src='images/Payment.jpg'
-                title='Payments'
-                text='We welcome both cash and credit payments, providing flexibility 
-                with multiple payment options for your convenience.'
+                title='Mobile Services'
+                text='Unlock the full potential of your mobile devices with our expert mobile services! From repairs to software updates, 
+                we have got you covered. Fast, reliable, and tailored to your needs. Stay connected effortlessly!'
+              />
+            </ul>
+            <ul className='cards__items'>
+              <CardItem
+                src='images/Walkin.jpg'
+                title='Notary'
+                text='Ensure the authenticity of your important documents with our professional notary services. Our experienced notaries are here to assist you with legalizing, 
+                certifying, and validating documents. Trust us for secure and reliable notary services.'
+                link='https://www.mailallcenter.com/'
+              />
+              <CardItem
+                src='images/Appointment.jpg'
+                title='Passport'
+                text='Embark on your next adventure hassle-free! Our passport services are designed to make the application and renewal process seamless. 
+                Let us handle the details, so you can focus on planning your travels. Your passport journey starts here!'
+                link='https://www.mailallcenter.com/'
+              />
+              <CardItem
+                src='images/Payment.jpg'
+                title='Pack & Ship'
+                text='Reliable packing and shipping solutions tailored to your needs. Whether it is a small package or a larger shipment, 
+                we ensure your items reach their destination safely and on time. Ship with confidence, entrust your parcels to us!'
+                link='https://www.mailallcenter.com/'
               />
             </ul>
           </div>

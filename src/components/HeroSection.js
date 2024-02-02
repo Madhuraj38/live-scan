@@ -5,12 +5,17 @@ import './HeroSection.css';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
-      {/* <img src='/images/fingerprint.jpg' /> */}
-      <h1>Want To Get FingerPrinted?</h1>
-      <p>We are an officially certified fingerprinting service provider agency 
-        authorized by the Department of Justice and FBI.</p>
-      <div className='hero-btns'>
+    <div className='main-content'>
+    <div className='hero-container1'>
+      <div className='left'>
+        <img src='/images/fingerprint-1.jpg' />
+      </div>
+      <div className='right'>
+        <h1>Want To Get LiveScan?</h1>
+        <p>We are an officially certified fingerprinting service provider agency 
+          authorized by the Department of Justice and FBI.</p>
+      </div>
+      {/* <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -26,7 +31,8 @@ function HeroSection() {
         >
           AboutUs
         </Button>
-      </div>
+      </div> */}
+    </div>
     </div>
   );
 }
