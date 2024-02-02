@@ -1,11 +1,12 @@
-/* img {
+img {
   object-fit: cover;
   width: 100%;
   height: 100%;
   z-index: -1;
-} */
+}
 .main-content{
   padding: 20px;
+  box-shadow: inset 0 0 0 1000px #8c8e8e33;
 }
 .hero-container {
   background: url('../../public/images/fingerprintDemo.jpeg') center center/cover no-repeat;
@@ -20,7 +21,6 @@
 }
 
 .hero-container1{
-  height: 50vh;
   width: 100%;
   display: flex;
   flex-direction: row;

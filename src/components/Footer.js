@@ -2,6 +2,9 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import CallIcon from '@mui/icons-material/Call';
+import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 
 function Footer() {
   return (
@@ -21,10 +24,19 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
+            <div className='footer-link-icons'>
+            <CallIcon/>
             <a href="tel: 650-961-4646">650-961-4646</a>
+            </div>
+            <div className='footer-link-icons'>
+            <MailOutlinedIcon/>
             <a href="mailto: mailallcenter1@gmail.com">mailto: mailallcenter1@gmail.com</a>
+            </div>
+            <div className='footer-link-icons'>
+            <AccessTimeIcon/>
             <a class="" href="#">Mon - Fri : 10am to 5pm PST<br/>
                     Sat : 10am to 2pm PST</a>
+            </div>
           </div>
         </div>
       </div>

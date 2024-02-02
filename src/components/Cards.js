@@ -32,20 +32,20 @@ function Cards() {
           <div className='cards__wrapper'>
             <ul className='cards__items'>
               <CardItem
-                src='images/Walkin.jpg'
+                src='images/icons/walk-in.png'
                 title='Walk In'
                 text='We provide the convenience of a walk-in facility, 
                 allowing you to visit us during office hours without the need for a prior appointment.'
               />
               <CardItem
-                src='images/Appointment.jpg'
+                src='images/icons/booking.png'
                 title='Appointments'
                 text='For privacy, appointments are offered upon request and 
                 are also available outside of regular office hours.'
                 path='/contact-us'
               />
               <CardItem
-                src='images/Payment.jpg'
+                src='images/icons/help.png'
                 title='Mobile Services'
                 text='Unlock the full potential of your mobile devices with our expert mobile services! From repairs to software updates, 
                 we have got you covered. Fast, reliable, and tailored to your needs. Stay connected effortlessly!'
@@ -53,25 +53,25 @@ function Cards() {
             </ul>
             <ul className='cards__items'>
               <CardItem
-                src='images/Walkin.jpg'
+                src='images/icons/certificate.png'
                 title='Notary'
                 text='Ensure the authenticity of your important documents with our professional notary services. Our experienced notaries are here to assist you with legalizing, 
                 certifying, and validating documents. Trust us for secure and reliable notary services.'
-                link='https://www.mailallcenter.com/'
+                path='https://www.mailallcenter.com/'
               />
               <CardItem
-                src='images/Appointment.jpg'
+                src='images/icons/passport.png'
                 title='Passport'
                 text='Embark on your next adventure hassle-free! Our passport services are designed to make the application and renewal process seamless. 
                 Let us handle the details, so you can focus on planning your travels. Your passport journey starts here!'
-                link='https://www.mailallcenter.com/'
+                path='https://www.mailallcenter.com/'
               />
               <CardItem
-                src='images/Payment.jpg'
+                src='images/icons/delivery.png'
                 title='Pack & Ship'
                 text='Reliable packing and shipping solutions tailored to your needs. Whether it is a small package or a larger shipment, 
                 we ensure your items reach their destination safely and on time. Ship with confidence, entrust your parcels to us!'
-                link='https://www.mailallcenter.com/'
+                path='https://www.mailallcenter.com/'
               />
             </ul>
           </div>
@@ -83,17 +83,17 @@ function Cards() {
           width: '50%',
           borderRadius: 1,
           bgcolor: 'white',
-          '&:hover': {
-            bgcolor: '#9ccaca33',
-          },
+          // '&:hover': {
+          //   bgcolor: '#9ccaca33',
+          // },
           padding: '1rem',
           marginTop: '30px',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          border: '1px solid',
+          // border: '1px solid',
           borderRadius: '10px',
-          boxShadow: '0px 0px 10px 0px #0D3056CC'
+          // boxShadow: '0px 0px 10px 0px #0D3056CC'
         }}>
         <p style={{padding:'20px'}}>Our organization holds official authorization from the Department of Justice 
         and is certified by the FBI as a fingerprinting service provider. We specialize 
@@ -107,40 +107,7 @@ function Cards() {
         </Button>
         </Box>
       </div>
-      <div className='service'>
-        <h1>Services</h1>
-        <p>Our fingerprinting service encompasses both electronic and traditional methods of capturing and submitting fingerprints.</p>
-        <div className='Grid'>
-          <div className='left'>
-            <img style={{borderRadius:'10px'}} src='/images/dig-scan.jpg' />
-          </div>
-          <div className='right'>
-            <div className='inner-content'>
-                <h4>Computer Based Live Scan Fingerprint</h4>
-                <p>The Live Scan fingerprinting system involves capturing fingerprints directly into a digital format, replacing traditional ink and paper methods.
-                   These systems have advanced from standalone devices to integrated systems connected to secure databases. Images can be captured, transmitted, 
-                   and interfaced with Automated Fingerprint Identification Systems (AFIS) for identification processing. 
-                   This method is cleaner, faster, and less prone to errors compared to traditional methods.</p>
-            </div>
-          </div>
-        </div>
-        <div className='Grid'>
-          <div className='left'>
-            <div className='inner-content'>
-                <h4>Ink Fingerprint</h4>
-                <p>Ink fingerprints are commonly known as "hard card" fingerprints or FBI FD-258 card fingerprints. We maintain a substantial stock of authentic FBI FD-258 fingerprint cards. 
-                  If you do not possess your own fingerprint cards, we can provide them to you at no charge.
-
-                  The U.S. Department of Justice sets forth guidelines and protocols for individuals seeking a copy of their own FBI Identification Record for review. 
-                  These requests are processed by the FBI's Criminal Justice Information Services (CJIS) Division.
-                </p>
-            </div>
-          </div>
-          <div className='right'>
-            <img style={{borderRadius:'10px'}} src='/images/ink-scan.jpg' />
-          </div>
-        </div>
-      </div>
+      
       <div className='documents'>
         < h1>Documents Required</h1>
         <List
