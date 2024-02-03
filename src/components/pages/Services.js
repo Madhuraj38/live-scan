@@ -60,7 +60,7 @@ export default function Services() {
         <h1>Fees</h1>
         <br/>
         <p>
-        Our transparent fee structure ensures you have a clear understanding of the costs involved. Our fingerprint rolling fees is only $25.00. Additional processing fees are required for state Department of Justice (DOJ) and FBI level criminal history records checks. Other fees may also be required.
+        Our transparent fee structure ensures you have a clear understanding of the costs involved. Our fingerprint rolling fees is only $14.99. Additional processing fees are required for state Department of Justice (DOJ) and FBI level criminal history records checks. Other fees may also be required.
         </p>
       </div>
 

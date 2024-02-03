@@ -136,6 +136,7 @@ h1 {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.5em;
+  padding-bottom: 1rem;
 }
 
 .service p{
@@ -143,6 +144,14 @@ h1 {
   font-size: 1rem;
   font-weight: 400;
   padding-bottom: 10px;
+  color: #666;
+}
+.service a {
+  display: flex;
+  /* flex-flow: column; */
+  overflow: hidden;
+  text-decoration: none;
+  color: #666;
 }
 .Grid{
   display: flex;
