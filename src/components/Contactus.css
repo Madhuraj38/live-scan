@@ -1,0 +1,140 @@
+/* .contact-container {
+    background-color: #e2e2e2;
+    /* padding: 0.5rem 0 0 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+  }
+  
+  .contact-container {
+    background-color: #e2e2e2;
+    /*border-radius: 10px; /* Add border-radius for rounded corners */
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a floating effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%; /* Set the maximum width for the container */
+    width: 100%; /* Ensure it takes 100% width on smaller screens */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-link-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line if needed */
+    justify-content: space-around; /* Arrange flex items with space around them */
+  }
+  .contact-links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* .contact-link-wrapper {
+    display: flex;
+  } */
+  
+  .contact-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    /* width: 160px; */
+    box-sizing: border-box;
+    padding: 30px;
+    color: #000000;
+  }
+  
+  .contact-link-items h2 {
+    margin-bottom: 16px;
+  }
+  
+  .contact-link-items > h2 {
+    color: #000000;
+  }
+  
+  .contact-link-items a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .contact-link-items a:hover {
+    color: #000000;
+    transition: 0.3s ease-out;
+  }
+  
+  .contact-link-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .contact-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #535455;
+    align-items: center;
+    padding: 11px;
+    width: 100%;
+  }
+  
+  .footer-text .copyrights {
+    padding-right: 22px;
+    font-size: 16px;
+    padding-bottom: 0 !important;
+    font-weight: 400;
+    color: #EFEFEF;
+  }
+
+    
+  /* Additional styles for responsiveness */
+  @media screen and (max-width: 600px) {
+    .contact-link-items {
+      margin: 10px;
+    }
+    .contact-wrapper{
+        flex-direction: column;
+    }
+    .contact-container{
+        max-width: 100%; /* Set the maximum width for the container */
+    }
+  }
+  
+  
+  @media screen and (max-width: 820px) {
+    .contact-links {
+      padding-top: 2rem;
+    }
+  
+    .contact-input {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .contact-link-wrapper {
+      flex-direction: column;
+    }
+  
+    .social-media-wrap {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+  }
+  

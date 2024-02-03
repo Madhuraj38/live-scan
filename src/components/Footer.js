@@ -30,7 +30,7 @@ function Footer() {
             </div>
             <div className='footer-link-icons'>
             <MailOutlinedIcon/>
-            <a href="mailto: mailallcenter1@gmail.com">mailto: mailallcenter1@gmail.com</a>
+            <a href="mailto: mailallcenter1@gmail.com">mailallcenter1@gmail.com</a>
             </div>
             <div className='footer-link-icons'>
             <AccessTimeIcon/>

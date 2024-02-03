@@ -1,11 +1,14 @@
 import React from 'react';
 import '../../App.css';
+import HeroSectionAbout from '../HeroSectionAbout';
 
 export default function About() {
   return (
+ <>
+  <HeroSectionAbout />
   <div className='aboutus'>
     <div className='head'>
-      <h1>About US</h1>
+      <h1>About Us</h1>
     </div>
     <div className='content'>
       <h2>About Us</h2>
@@ -37,5 +40,6 @@ export default function About() {
       </p>
     </div>
   </div>
+  </>
   );
 }

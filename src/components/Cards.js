@@ -12,7 +12,6 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-// import GoogleMapReact from 'google-map-react';
 // import Box from '@mui/system/Box';
 import { Box, Button, Grid } from '@mui/material';
 import GoogleMapComponent from './GoogleMapComponent';
@@ -156,11 +155,11 @@ function Cards() {
           </ListItem> */}
         </List>
       </div>
-      {/* <div>
-        <div style={{ height: '400px', width: '100%' }}>
+      <div> 
+        <div style={{ height: '500px', width: '100%', padding: '4rem 0rem 0rem 0rem', margin: '0 auto' }}>
           <GoogleMapComponent />
         </div>
-      </div> */}
+      </div>
       
       
 

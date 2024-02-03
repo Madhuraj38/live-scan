@@ -16,8 +16,14 @@ export default function Services() {
         Our state of the art live scan fingerprinting system can digitally scan and capture your fingerprints, and then immediately transmit them electronically to the California State Department of Justice in Sacramento. You can walk in for service any time during business hours without an appointment. If you are located in San Mateo, Fremont, Burlingame, Redwood City, Foster City, Campbell, Union City, Pleasanton, Livermore, or any other location, you can also benefit from our mobile live scan fingerprint service.
         </p>
     </div> */}
+
+<div className='aboutus'>
+  <div className='head'>
+      <h1>Services</h1>
+    </div>
+  </div>
     <div className='service'>
-        <h1>Services</h1>
+    {/* <h1>Services</h1> */}
         <p>Our fingerprinting service encompasses both electronic and traditional methods of capturing and submitting fingerprints.</p>
         <div className='Grid'>
           <div className='left'>
