@@ -3,6 +3,8 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
+import FingerprintIcon from '@mui/icons-material/Fingerprint';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -30,10 +32,10 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Live Scan
+          <FingerprintIcon/>&nbsp; <div>LiveScan</div><div>Express Hub</div>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
-            <MenuIcon/>
+            {click ? <CloseIcon/> : <MenuIcon/>}
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>

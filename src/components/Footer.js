@@ -41,7 +41,7 @@ function Footer() {
         </div>
       </div>
       <div class="footer-text">
-        <p class="copyrights">© Copyrights, All Rights Reserved by Live Scan</p> 
+        <p class="copyrights">© Copyrights, All Rights Reserved by LiveScan Express Hub</p> 
       </div>
     </div>
   );

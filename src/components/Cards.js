@@ -18,11 +18,6 @@ import GoogleMapComponent from './GoogleMapComponent';
 import { Link } from 'react-router-dom';
 
 function Cards() {
-  const handleClick = () => {
-    // Redirect to another page
-    // history.push('/about-us');
-    <Link to='/about-us'/>
-  };
   return (
     <>
       <div className='cards'>
@@ -77,7 +72,7 @@ function Cards() {
         </div>
       </div>
       <div className='about'>
-        <h1>Live Scan</h1>
+        <h1>LiveScan Express Hub</h1>
         <Box component="section" sx={{
           width: '50%',
           borderRadius: 1,
@@ -101,9 +96,10 @@ function Cards() {
         business permits, record reviews, immigration clearances, and other licensing or 
         employment purposes.</p>
         <br/>
-        <Button variant="contained" color="primary" onClick={handleClick} sx={{padding: '10px 20px',bgcolor:'skyblue'}}>
+        <Link to='/about-us'><Button variant="contained" color="primary" sx={{padding: '10px 20px',bgcolor:'skyblue'}}>
           About Us
         </Button>
+        </Link>
         </Box>
       </div>
       
@@ -118,7 +114,7 @@ function Cards() {
               <ListItemIcon>
                 <DocumentScannerIcon />
               </ListItemIcon>
-              <ListItemText primary="Live Scan Fingerprint request form" />
+              <ListItemText primary="Our Fingerprint request form" />
             </ListItemButton>
           </ListItem>
           <ListItem >
@@ -154,6 +150,86 @@ function Cards() {
             </ListItemButton>
           </ListItem> */}
         </List>
+      </div>
+      <div className='customers'>
+        <h1> Our Customers</h1>
+        <p>At LiveScan Express Hub, we're the experts in fingerprinting, so you don't need to worry about a thing! 
+          From education and employment to business, travel, volunteering, and legal requirements, 
+          just about everyone in America will need fingerprinting services at some point. 
+          Our customers come to us for background checks in various fields and areas, including :
+        </p>
+        <div className='list'>
+          <div className='col-0'>
+            <ul>
+              <li>Accounting professionals</li>
+              <li>Adoption</li>
+              <li>Athletic Trainers</li>
+              <li>ATF (Alcohol, Tobacco and Firearms)</li>
+              <li>Bar examination</li>
+              <li>Board of Long Term Examiners</li>
+              <li>Bureau of Alcohol & Drug Abuse</li>
+              <li>Bus Drivers</li>
+              <li>Cannabis Compliance Board</li>
+              <li>Charter Schools</li>
+              <li>Child Care</li>
+              <li>Chiropratic Examiners</li>
+              <li>City or County Employment</li>
+              <li>Contractors</li>
+              <li>CPA</li>
+              <li>Dentists and Dental Hygienists</li>
+              <li>Department of Agriculture Employment</li>
+              <li>Department of Motor Vehicles</li>
+              <li>Department of Wildlife</li>
+            </ul>
+          </div>
+          <div className='col-1'>
+            <ul>
+              <li>Disability Care</li>
+              <li>Dietitian</li>
+              <li>Document Prep</li>
+              <li>Elderly Care Employees</li>
+              <li>Emergency Medical Systems</li>
+              <li>Escrow Title Officers</li>
+              <li>Foster Parents</li>
+              <li>FFL (Federal firearm License)</li>
+              <li>Gaming License or Employment</li>
+              <li>HCQC</li>
+              <li>Home Healthcare Agencies</li>
+              <li>Housing Authority Employment or Application</li>
+              <li>Immigration</li>
+              <li>Insurance Inspectors and Officers</li>
+              <li>Kinship Care</li>
+              <li>Labor Commissioners</li>
+              <li>Limo Drivers</li>
+              <li>Lawyers/State Bar</li>
+              <li>Long-term Care Administrators</li>
+            </ul>
+          </div>
+          <div className='col-2'>
+            <ul>
+              <li>Manufactured Housing</li>
+              <li>Masage Therapist</li>
+              <li>Mortgage Professionals</li>
+              <li>Nursing License</li>
+              <li>Osteopathic Physicians</li>
+              <li>Pharmacy Technicians</li>
+              <li>Physical Therapists and Assistants</li>
+              <li>Post-Secondary Education</li>
+              <li>Private Investigators</li>
+              <li>Private and Charter Schools</li>
+              <li>Psychology</li>
+              <li>Real Estate Professionals</li>
+              <li>School-district Employment</li>
+              <li>Sealing Criminal Records</li>
+              <li>Security Guards</li>
+              <li>Social Workers</li>
+              <li>Taxicab Drivers</li>
+              <li>Teaching License</li>
+              <li>Traveling Outside USA</li>
+              <li>Volunteers</li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div> 
         <div style={{ height: '500px', width: '100%', padding: '4rem 0rem 0rem 0rem', margin: '0 auto' }}>

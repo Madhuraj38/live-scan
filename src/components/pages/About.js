@@ -12,7 +12,7 @@ export default function About() {
     </div>
     <div className='content'>
       <h2>About Us</h2>
-      <p>At MyLive Scan, we offer both In-Office and Onsite fingerprinting services to Northern California and surrounding areas.
+      <p>At LiveScan Express Hub, we offer both In-Office and Onsite fingerprinting services to Northern California and surrounding areas.
          Whether you prefer the convenience of walking in without an appointment or having our services brought to your doorstep, we've got you covered. 
          Our fingerprinting services include both Computer-based and Ink (card) based options, ensuring flexibility to meet your needs. 
          Our top priority is to save you time while providing fingerprinting services of the highest quality and security. 

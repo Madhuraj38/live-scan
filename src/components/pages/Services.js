@@ -63,7 +63,28 @@ export default function Services() {
         Our transparent fee structure ensures you have a clear understanding of the costs involved. Our fingerprint rolling fees is only $14.99. Additional processing fees are required for state Department of Justice (DOJ) and FBI level criminal history records checks. Other fees may also be required.
         </p>
       </div>
-
+    <div className='accounts'>
+    <h1>Payment options</h1>
+    <div className='account-text'>
+      <h4>Upon completion of the Services Agreement, we offer monthly invoicing for your convenience. Following this, we will provide your company with a payment voucher, authorizing the fees to be charged to your account.</h4>
+    </div>
+    <div className='account-text'>
+      <h4>Credit Card on File is an option as well as Employee Pays Special Discount Pricing. Contact us for details.</h4>
+    </div>
+    <div className='account-text'>
+      <p>We specialize in assisting HR departments with fingerprint background checks, helping to alleviate their workload. 
+        Our commitment to excellence has led us to be selected by State Agencies for beta testing new programs before implementation. 
+        Rest assured, we adhere strictly to all laws, policies, and procedures in alignment with law enforcement processes.
+      </p>
+    </div>
+    <div className='account-text'>
+      <p>
+      we are the finger printing experts, so you don’t have to worry about a thing! We provide 5-star hospitality customer service, 
+      ensuring a seamless experience for our clients. With our industry expertise, we aim to simplify your tasks by proactively handling background follow-ups, relieving HR of unnecessary burdens. 
+      Our efficient service ensures that customers are in and out in minutes!
+      </p>
+      </div>
+    </div>
     </>
   );
 }
