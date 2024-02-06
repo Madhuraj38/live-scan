@@ -24,11 +24,21 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   font-weight: 700;
+  text-align: center;
+
+  h1 {
+    text-align: center;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #00000066;
+  }
 }
+
 
 .fa-typo3 {
   margin-left: 0.5rem;
@@ -77,6 +87,23 @@
 }
 
 @media screen and (max-width: 960px) {
+  .navbar-container {
+    width: 100%; 
+    padding: 0 10px; 
+  }
+  .navbar {
+    height: 60px; 
+  }
+
+  .navbar-logo{
+    h1 {
+      font-size: 24px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+
   .NavbarItems {
     position: relative;
   }
@@ -102,7 +129,7 @@
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 0.5rem;
     width: 100%;
     display: table;
   }
@@ -115,9 +142,9 @@
 
   .navbar-logo {
     position: absolute;
-    top: 0;
+    /* top: 0; */
     left: 0;
-    transform: translate(25%, 50%);
+    /* transform: translate(25%, 50%); */
   }
 
   .menu-icon {
@@ -125,7 +152,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 40%);
     font-size: 1.8rem;
     cursor: pointer;
   }

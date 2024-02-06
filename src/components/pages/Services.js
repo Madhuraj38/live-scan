@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import '../Cards.css';
-import CardItem from '../CardItem';
 import HeroSectionServices from '../HeroSection_Services';
 
 export default function Services() {
@@ -56,13 +55,13 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className='about'>
+      {/* <div className='about'>
         <h1>Fees</h1>
         <br/>
         <p>
         Our transparent fee structure ensures you have a clear understanding of the costs involved. Our fingerprint rolling fees is only $14.99. Additional processing fees are required for state Department of Justice (DOJ) and FBI level criminal history records checks. Other fees may also be required.
         </p>
-      </div>
+      </div> */}
     <div className='accounts'>
     <h1>Payment options</h1>
     <div className='account-text'>

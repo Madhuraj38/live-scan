@@ -6,9 +6,8 @@
 h1 {
   text-align: center;
   padding: 10px;
-  font-size: 40px;
-  font-weight: 700;
-  text-shadow: 2px 2px 5px #00000066;
+  font-size: 34px;
+  font-weight: 600;
 }
 
 .cards__container {
@@ -109,12 +108,13 @@ h1 {
   align-items: center;
   object-fit: contain;
   padding: 1rem;
+  margin: 1% 0%;
 }
 .documents h1{
   padding: 20px;
   font-size: 40px;
   font-weight: 700;
-  text-shadow: 2px 2px 5px #00000066;
+  /* text-shadow: 2px 2px 5px #00000066; */
 }
 
 .service{
@@ -129,7 +129,7 @@ h1 {
   padding: 20px;
   font-size: 40px;
   font-weight: 700;
-  text-shadow: 2px 2px 5px #00000066;
+  /* text-shadow: 2px 2px 5px #00000066; */
 }
 
 .service h4{
@@ -175,19 +175,19 @@ h1 {
   border-radius: 10px;
   padding: 20px;
 }
-.about{
-  height: 100%;
+.about1{
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px #8c8e8e33;
+  box-shadow: inset 0 0 0 1000px rgba(221, 208, 200);
   object-fit: contain;
   padding: 2rem;
 }
 
 .customers{
-  width: 90%;
+  max-width: 1080px;
   margin: auto;
   background: #f0f3f3;
   padding: 1rem;
@@ -224,7 +224,7 @@ h1 {
   padding: 20px;
   font-size: 40px;
   font-weight: 700;
-  text-shadow: 2px 2px 5px #00000066;
+  /* text-shadow: 2px 2px 5px #00000066; */
 }
 .Faq p{
   line-height: 1.5rem;
@@ -235,7 +235,8 @@ h1 {
 .accordion{
   padding: 2rem;
   width: 60%;
-  
+  max-width: 800px; 
+  margin: auto;
 }
 .accordion_item{
   margin-bottom: 10px;
@@ -259,7 +260,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 820px) {
   .cards__item {
     margin-bottom: 2rem;
   }
@@ -268,6 +269,32 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+  }
+  .service h1 {
+    font-size: 32px; 
+  }
+
+  .service h4 {
+    font-size: 1.2rem; 
+  }
+
+  .service p {
+    font-size: 0.9rem;
+  }
+
+  .left,
+  .right {
+    width: 100% !important; 
+    float: none; 
+  }
+
+  .Faq p {
+    font-size: 14px; 
+  }
+
+  .accordion {
+    padding: 1rem;
     width: 100%;
   }
 }

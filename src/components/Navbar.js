@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -32,7 +31,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <FingerprintIcon/>&nbsp; <div>LiveScan</div><div>Express Hub</div>
+          <FingerprintIcon/>&nbsp; <div><h1>LiveScan</h1><p>Express Hub</p></div>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             {click ? <CloseIcon/> : <MenuIcon/>}

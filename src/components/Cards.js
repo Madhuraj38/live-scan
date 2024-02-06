@@ -13,7 +13,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 // import Box from '@mui/system/Box';
-import { Box, Button, Grid } from '@mui/material';
+import { Box, Button } from '@mui/material';
 import GoogleMapComponent from './GoogleMapComponent';
 import { Link } from 'react-router-dom';
 
@@ -71,11 +71,10 @@ function Cards() {
           </div>
         </div>
       </div>
-      <div className='about'>
+      <div className='about1'>
         <h1>LiveScan Express Hub</h1>
         <Box component="section" sx={{
           width: '50%',
-          borderRadius: 1,
           bgcolor: 'white',
           // '&:hover': {
           //   bgcolor: '#9ccaca33',
@@ -87,16 +86,27 @@ function Cards() {
           alignItems: 'center',
           // border: '1px solid',
           borderRadius: '10px',
+          '@media (max-width: 768px)': {
+            width: '100%', 
+          },
           // boxShadow: '0px 0px 10px 0px #0D3056CC'
         }}>
-        <p style={{padding:'20px'}}>Our organization holds official authorization from the Department of Justice 
+        <p style={{padding:'20px',
+      '@media (max-width: 768px)': {
+        padding: '10px', 
+        fontSize: '14px', 
+      },}}>Our organization holds official authorization from the Department of Justice 
         and is certified by the FBI as a fingerprinting service provider. We specialize 
         in capturing and submitting fingerprints electronically or via ink. Our services 
         cater to various needs, including licensure, certification, volunteering, employment, 
         business permits, record reviews, immigration clearances, and other licensing or 
         employment purposes.</p>
         <br/>
-        <Link to='/about-us'><Button variant="contained" color="primary" sx={{padding: '10px 20px',bgcolor:'skyblue'}}>
+        <Link to='/about-us'><Button variant="contained" color="primary" sx={{padding: '10px 20px',bgcolor:'skyblue',
+      '@media (max-width: 768px)': {
+        padding: '8px 16px', 
+        fontSize: '14px', 
+      },}}>
           About Us
         </Button>
         </Link>

@@ -6,7 +6,7 @@ img {
 }
 .main-content{
   /* padding: 20px; */
-  box-shadow: inset 0 0 0 1000px #8c8e8e33;
+  box-shadow: inset 0 0 0 1000px rgba(221, 208, 200);
 }
 .hero-container {
   background: url('../../public/images/fingerprintDemo.jpeg') center center/cover no-repeat;

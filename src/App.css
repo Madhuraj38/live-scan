@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
+  /* overflow-x: hidden; */
 }
 
 .home,
@@ -38,7 +39,7 @@
   padding: 10px;
   font-size: 40px;
   font-weight: 700;
-  text-shadow: 2px 2px 5px #00000066;
+  /* text-shadow: 2px 2px 5px #00000066; */
 }
 .aboutus .content{
   width: 80%;
@@ -72,4 +73,44 @@
   color: #fff;
   font-size: 100px; */
   padding: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutus .content {
+    width: 90%; 
+    padding: 5% 2%; 
+  }
+
+  .aboutus .head h1 {
+    font-size: 32px; 
+  }
+
+  .aboutus .content h2 {
+    font-size: 16px; 
+  }
+
+  .aboutus .content p {
+    font-size: 12px; 
+  }
+
+  h1 {
+    font-size: 24px !important; 
+  }
+
+  .accounts {
+    width: 90%;
+  }
+
+  .account-text {
+    padding: 0.5rem; 
+
+    h4{
+      font-size: 12px !important;
+    }
+    p{
+      font-size: 12px !important;
+    }
+  }
+
+
 }
