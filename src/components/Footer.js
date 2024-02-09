@@ -33,8 +33,8 @@ function Footer() {
             </div>
             <div className='footer-link-icons'>
             <AccessTimeIcon/>
-            <a class="" href="/contact-us">Mon - Fri : 10am to 5pm PST<br/>
-                    Sat : 10am to 2pm PST</a>
+            <a class="" href="/contact-us">Mon - Fri : 10AM to 5PM PST<br/>
+                    Sat : 10AM to 2PM PST</a>
             </div>
           </div>
         </div>

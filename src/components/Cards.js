@@ -41,8 +41,8 @@ function Cards() {
               <CardItem
                 src='images/icons/help.png'
                 title='Mobile Services'
-                text='Unlock the full potential of your mobile devices with our expert mobile services! From repairs to software updates, 
-                we have got you covered. Fast, reliable, and tailored to your needs. Stay connected effortlessly!'
+                text='Conveniently get your livescan and documents notarized at your location. 
+                Enjoy the ease of our mobile service, tailored to your busy schedule. We offer group discounts and accommodate non-profit organizations for added affordability and accessibility.'
               />
             </ul>
             <ul className='cards__items'>

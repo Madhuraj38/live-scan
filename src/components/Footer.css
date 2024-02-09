@@ -62,7 +62,7 @@
 
 .footer-text .copyrights {
   padding-right: 22px;
-  font-size: 12px;
+  font-size: 16px;
   padding-bottom: 0 !important;
   font-weight: 400;
   color: #EFEFEF;
@@ -100,5 +100,8 @@
 
   .footer-link-wrapper {
     justify-content: center; 
-}
+  }
+  .footer-text .copyrights {
+    font-size: 12px !important;
+  }
 }

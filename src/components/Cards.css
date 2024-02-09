@@ -205,11 +205,11 @@ h1 {
   padding: 1rem;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   color: #666;
 }
 .customers .col-0,.col-1, .col-2{
   padding: 1rem;
-  margin: auto;
   line-height: 1.5;
 }
 
@@ -297,4 +297,6 @@ h1 {
     padding: 1rem;
     width: 100%;
   }
+  
+
 }
